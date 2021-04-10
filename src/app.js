@@ -30,7 +30,8 @@ async function getData() {
 app.get("/", async (req, res) => {
   res.send({
     maintainer: "Fiqry choerudin <work.fiqrychoerudin@gmail.com>",
-    source: ""
+    source: "https://github.com/fiqryq/unofficial-vaccine-api",
+    data: "https://api-vaksin.herokuapp.com/vaksin"
   });
 });
 
